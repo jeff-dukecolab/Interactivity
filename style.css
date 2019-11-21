@@ -1,0 +1,54 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+h1, h2 {
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+body>div>p {
+  width: 60%;
+  margin: 20px auto;
+}
+
+.navyClass {
+  background-color: navy;
+  text-align: left;
+}
+
+.redClass {
+  background-color: red;
+  text-align: left;
+}
+
+h3 {
+  color: navy;
+  margin: 0;
+}
+
+.left {
+  width: 50%;
+  float: left;
+  margin: 20px 20px 20px 0;
+}
+
+.wrap {
+  padding: 20px;
+}
+
+.clear {
+  clear: both;
+}
+
+.hide {
+  display: none;
+}
